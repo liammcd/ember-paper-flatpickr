@@ -1,6 +1,6 @@
 import Component from '@ember/component';
 import layout from '../templates/components/paper-flatpickr';
-import { invokeAction } from 'ember-invoke-action';
+import { invokeAction } from 'ember-paper/utils/invoke-action';
 
 export default Component.extend({
   layout,

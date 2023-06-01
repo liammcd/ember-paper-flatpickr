@@ -2,7 +2,7 @@ import PaperInput from "ember-paper/components/paper-input";
 
 import FlatpickrMixin from "ember-flatpickr/mixins/flatpickr";
 import diffAttrs from "ember-diff-attrs";
-import { invokeAction } from "ember-invoke-action";
+import { invokeAction } from "ember-paper/utils/invoke-action";
 import { assert } from "@ember/debug";
 import { assign } from "@ember/polyfills";
 import { run } from "@ember/runloop";
